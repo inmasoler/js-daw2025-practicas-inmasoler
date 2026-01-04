@@ -1,0 +1,21 @@
+.hidden {
+    display: none;
+}
+
+#mapContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding-top: 0;
+    overflow: hidden;
+}
+
+#mapaMeteorologico {
+    transform: rotate(90deg);
+    transform-origin: center;
+    width: 70vh;
+    max-width: max-content;
+    height: auto;
+    margin-top: -100px;
+}

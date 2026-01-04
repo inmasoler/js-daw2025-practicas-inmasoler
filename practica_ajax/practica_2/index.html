@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <form id="form">
+        <label for="number">Dame un número para escoger un producto: </label>
+        <input type="number" id="numProducto" min="1" max="30">
+        <input type="submit" value="Submit">
+    </form>
+
+    <div class="hidden" id="contentProduct">
+        <p id="nombre"></p>
+        <p id="id"></p>
+        <p id="precio"></p>
+    </div>
+
+    <div>
+        <p id="nombreProdServidor"></p>
+        <p id="status"></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
